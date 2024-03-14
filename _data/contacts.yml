@@ -1,15 +1,15 @@
 #
 # Region
 #
-- type: region
-  item: vinnytsia
-  # name: Нерухомість у Івано-Франківській області
-  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  # phone_main: 380974949649
-  # phone_hot: 380974949649
-  # phone_fax: 380974949649
-  email: info@realestate.vn.ua
-  www: https://www.realestate.vn.ua/
+# - type: region
+#   item: vinnytsia
+#   # name: Нерухомість у Івано-Франківській області
+#   # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
+#   # phone_main: 380974949649
+#   # phone_hot: 380974949649
+#   # phone_fax: 380974949649
+#   email: info@realestate.vn.ua
+#   www: https://www.realestate.vn.ua/
 
 #
 # District
@@ -110,6 +110,13 @@
 - type: developer
   item: builder
   name: Будівельна компанія "Будівельник"
+  address: 21001, м. Вінниця, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000001
+  phone_hot: 380000000002
+  phone_fax: 380000000003
+  phone_buy: 380000000004
+  email: builder@realestate.vn.ua
+  www: https://www.realestate.vn.ua/
 
 #
 # Realtor / Agent
@@ -157,12 +164,13 @@
 - type: realtor
   item: agent
   name: Нерухомість від Агента Продавця
-  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  # phone_main: 380504949649
-  # phone_hot: 380504949649
-  # phone_fax: 380504949649
-  # email: agent@realestate.vn.ua
-  # www: https://www.realestate.vn.ua/
+  address: 21001, м. Вінниця, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000001
+  phone_hot: 380000000002
+  phone_fax: 380000000003
+  phone_buy: 380000000004
+  email: agent@realestate.vn.ua
+  www: https://www.realestate.vn.ua/
 
 #
 # Agency / ahentsiya
@@ -170,9 +178,10 @@
 - type: agency
   item: ahentsiya
   name: Нерухомість від Агенції Продавця
-  # address: 76018, м. Івано-Франківськ, вул.&nbsp;Січових&nbsp;Стрільців,&nbsp;56
-  # phone_main: 380504949649
-  # phone_hot: 380504949649
-  # phone_fax: 380504949649
-  # email: agent@realestate.vn.ua
-  # www: https://www.realestate.vn.ua/
+  address: 21001, м. Вінниця, вул.&nbsp;Степана&nbsp;Бандери,&nbsp;0
+  phone_main: 380000000001
+  phone_hot: 380000000002
+  phone_fax: 380000000003
+  phone_buy: 380000000004
+  email: agency@realestate.vn.ua
+  www: https://www.realestate.vn.ua/
