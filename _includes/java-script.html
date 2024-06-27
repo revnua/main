@@ -4,6 +4,10 @@
   {%- if page.lightbox == 1 -%}
     <script src="{{ "/assets/js/main.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
   {%- else -%}
+    <!-- ### -->
+    <script src="{{ "/assets/js/table.all.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <script src="{{ "/assets/js/main.table.all.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    <!-- ### -->
     <script src="{{ "/assets/js/main.h.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
   {%- endif -%}
 {%- else -%}
@@ -30,10 +34,6 @@
     {%- elsif paged != '/laws/' or paged != '/docs/' -%}
       <script src="{{ "/assets/js/main.t.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
     {%- else -%}
-      <!-- ### -->
-      <script src="{{ "/assets/js/table.all.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-      <script src="{{ "/assets/js/main.table.all.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
-      <!-- ### -->
       <script src="{{ "/assets/js/main.js" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
     {%- endif -%}
   {%- endif -%}
