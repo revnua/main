@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v5.2.0
       - name: Update exchange rates in _config.yml
         run: |
           CURRENT_USD=$(grep '^usd:' _config.yml | awk '{print $2}')
